@@ -84,13 +84,13 @@ public class SolarSystem extends JFrame {
 		setTitle("The Solar System");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		
-        setExtendedState(JFrame.MAXIMIZED_BOTH);
-        setSize(Toolkit.getDefaultToolkit().getScreenSize());
         pack();
+		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+        // setExtendedState(JFrame.MAXIMIZED_BOTH); // No longer know what was this for
+        setSize(screenSize);
 		setResizable(false);
 		setVisible(true);
 		setLocationRelativeTo(null);
-		Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
 		SUNX = screenSize.width/2;
 		SUNY = screenSize.height/2;
 		
