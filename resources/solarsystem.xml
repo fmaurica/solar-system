@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<solarsystem>
+	<planet name="sun" sma="0" e="0" v="0" r="696342"></planet>
+	<planet name="mercury" sma="0.387098" e="0.205630" v="47362" r="2439.7"></planet>
+	<planet name="venus" sma="0.723327" e="0.0067" v="35020" r="6051.8"></planet>
+	<planet name="earth" sma="1.00000261" e="0.01671123" v="29780" r="6371"></planet>
+	<planet name="mars" sma="1.523679" e="0.0934" v="24077" r="3389.5"></planet>	
+	<planet name="jupiter" sma="5.204267" e="0.048775" v="13070" r="69911"></planet>
+	<planet name="saturn" sma="9.5820172" e="0.055723219" v="9690" r="58232"></planet>
+	<planet name="uranus" sma="19.189253" e="0.047220087" v="6800" r="25362"></planet>
+	<planet name="neptune" sma="30.070900" e="0.00867797" v="5430" r="24622"></planet>
+</solarsystem>
